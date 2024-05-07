@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: grey;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    background-color: cornsilk;
+    border-radius: 5px;
+}
+
+.container span{
+    margin: 5px 10px;
+    font-size: 18px;
+}
+
+#text{
+    color: rgb(24, 94, 24);
+}
+
+.container #password{
+    height: 40px;
+    width: 300px;
+    margin: 8px;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+.container i{
+    position: relative;
+    top: -40px;
+    left: 280px;
+    font-size: 25px;
+    color: green;
+}
+
+.container button {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 8px 8px 15px 8px;
+    background-color: rgb(65, 65, 218);
+    color: #fff;
+}
